@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	display: flex;
+	padding: 20px;
+}
+.logo{
+	width: 30%;
+	height: 50px;
+/*	background-color: green;*/
+	padding-top: 3px;
+}
+.logo p{
+	text-align: center;
+}
+.menus{
+	width: 70%;
+	height: 50px;
+/*	background-color: yellow;*/
+}
+.menus ul{
+	color: black;
+	display: flex;
+	justify-content: space-around;
+}
+.menus ul li a{
+	font-size: 30px;
+	line-height: 50px;
+	text-decoration: none;	
+}
+
+.menus ul li{
+	list-style-type: none;
+	
+}
+.menus ul li a:hover{
+	border-bottom: 3px solid blue;
+}
+.banners img{
+	width: 100%;
+}
+.products{
+	width: 100%;
+}
+.p{
+float: left;
+margin-left: 180px;
+margin-top: 30px;
+text-align: center;
+
+}
+.p h3{
+	margin-top: 30px;
+	color: blue;
+	text-align: center;
+}
+.cart{
+	width: 100%;
+	display: flex;
+	padding: 30px;
+
+}
+.basket{
+	width: 50%;
+	text-align: center;
+}
+.basket h1{
+	margin-bottom: 30px;
+}
+.text{
+	width: 50%;
+	padding: 50px;
+	line-height: 30px;
+
+}
+.footer{
+	padding: 30px;
+}
+.footer p{
+	text-align: center;
+}
